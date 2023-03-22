@@ -10,19 +10,20 @@
  * Return: 0 when necessary
  */
 int main(int argc, char **argv)
-
-	int a,
-
-
-	ex = 0;
-	if (argc != 3)
 {
-	printf("%s\n", "Error");
-	ex = 1;
-}
-else
+	int num1, num2, mul;
+
+	if (argc !=3)
 	{
-		a = atoi(argv[1]) * atoi(argv[2]);
-		printf("%i\n", a);
+		printf("Error\n");
+		return (1);
 	}
-	return (ex);
+	else
+	{
+		num1 = atoi(argv[1]);
+		num2 = atoi(argv[2]);
+		mul = num1 * num2;
+		printf("%d/n", mul);
+	}
+	return (0);
+}	
