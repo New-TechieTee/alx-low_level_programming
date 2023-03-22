@@ -13,7 +13,7 @@ int main(int argc, char **argv)
 {
 	int num1, num2, mul;
 
-	if (argc !=3)
+	if (argc != 3)
 	{
 		printf("Error\n");
 		return (1);
@@ -26,4 +26,4 @@ int main(int argc, char **argv)
 		printf("%d/n", mul);
 	}
 	return (0);
-}	
+}
